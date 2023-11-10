@@ -1,1 +1,1 @@
-# Design-of-multi-tier
+# Design-of-multitier
