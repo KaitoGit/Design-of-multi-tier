@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    /*background-color: #99c4df;*/
+    background-image:url(./BG.jpg);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff9900;
+}
+
+.page {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.page h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.map {
+    height: 400px;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+.social-media .social-link {
+    margin-right: 10px;
+}
+
+.slideshow-container img {
+    max-width: 30%; /* 图片最大宽度为父容器的100% */
+    height: auto; /* 高度自适应，保持比例 */
+}
+
+#map { height: 180px; }
+
+h1 {
+    color: red;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+    font-style:italic;
+    font-family: Brush Script MT, Verdana, sans-serif;
+}
+.Liang {
+    max-width: 1%; 
+    height: auto; 
+}
+footer {
+
+    text-align: center;
+}
